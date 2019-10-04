@@ -138,7 +138,7 @@ include_directories(${PROJECT_SOURCE_DIR}/src)
 # Note: the compiler does not really need these includes, as they are made above
 # - the code-highlighter of QtCreator however does not understand above conditions,
 # thus here it is again.
-include_directories(/usr/lib/avr/include)
+include_directories(${CMAKE_SYSTEM_INCLUDE_PATH})
 
 
 ##########################################################################
