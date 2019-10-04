@@ -133,7 +133,7 @@ add_definitions("-c")
 ##########################################################################
 # include search paths
 ##########################################################################
-include_directories(${PROJECT_SOURCE_DIR}/src)
+include_directories(${PROJECT_SOURCE_DIR}/src/ArduinoDrivers)
 
 # Note: the compiler does not really need these includes, as they are made above
 # - the code-highlighter of QtCreator however does not understand above conditions,
